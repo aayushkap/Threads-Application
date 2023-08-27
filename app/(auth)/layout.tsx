@@ -8,6 +8,7 @@ import '../globals.css';
 
 //For SEO.
 export const metadata = {
+    title: 'Threads',
     description: 'A Next.js Meta Threads Application'
 }
 
@@ -21,11 +22,12 @@ export default function RootLayout({
 }:{ 
     children:React.ReactNode
 }) {
-    return <ClerkProvider>
+    return  (
+    <ClerkProvider>
         <html lang="en">
-            <body className={'${inter.className} bg-dark-1'}>
+            <body className={`${inter.className} bg-dark-1`}>
                 {children}
             </body>
         </html>
-    </ClerkProvider>
-}
+</ClerkProvider>
+)}

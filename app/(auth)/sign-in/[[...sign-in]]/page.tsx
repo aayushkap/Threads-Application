@@ -1,4 +1,4 @@
-//SignIn Functionality provided by Clerk (check DOCS).
+//SignIn prebuilt component provided by Clerk (check DOCS).
 
 import { SignIn } from "@clerk/nextjs";
  
